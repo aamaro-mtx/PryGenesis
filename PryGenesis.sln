@@ -3,13 +3,19 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
 VisualStudioVersion = 12.0.30110.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Ex001", "Ex001", "{47714EFF-4F11-4FDC-A8D7-97549D6B7CA1}"
-	ProjectSection(SolutionItems) = preProject
-		..\name.asm = ..\name.asm
-		..\name.png = ..\name.png
-	EndProjectSection
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ex00", "Ex00\Ex00.csproj", "{9CF274A5-EA22-424B-A00F-3EB30ABF16EB}"
 EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9CF274A5-EA22-424B-A00F-3EB30ABF16EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9CF274A5-EA22-424B-A00F-3EB30ABF16EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9CF274A5-EA22-424B-A00F-3EB30ABF16EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9CF274A5-EA22-424B-A00F-3EB30ABF16EB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
